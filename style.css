@@ -714,10 +714,15 @@ when users will click/enter button(link) browser will add a #id in a url and whe
     margin: 0 10% 0 10%;
 }
 
-.carousel{
-    margin: 10%;
+.project>div{
+    margin: 15%;
+    border-radius: 5px;
 }
 
+.carousel-item>div{
+    background-color: #113d6b;
+    border-radius: 5px;
+}
 .custom-shape-divider-top-1707417152 {
     position: relative;
     top: 0;
@@ -794,6 +799,17 @@ when users will click/enter button(link) browser will add a #id in a url and whe
     .droite{
         display: none;
     }
+
+    .project{
+        margin: 0;
+    }
+
+    .project>div{
+        margin: 10%;
+        border-radius: 5px;
+    }
+
+
 }
 
 @media only screen and (max-width:768px) {
