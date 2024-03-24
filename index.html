@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -18,19 +19,19 @@
     <nav>
         <ul>
             <li>
-                <a href="" >Accueil</a>
+                <a href="#Accueil" >Accueil</a>
             </li>
             <li>
-                <a href="">Experiences</a>
+                <a href="#parcours">Expériences</a>
             </li>
             <li>
-                <a href="">Compétences</a>
+                <a href="#soft">Compétences</a>
             </li>
             <li>
-                <a href="">Projets</a>
+                <a href="#projet">Projets</a>
             </li>
             <li>
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
@@ -41,25 +42,18 @@
     </label>
 </header>
 
-<div class="curve1">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-    </svg>
-</div>
-<section>
+<section id="Accueil">
     <div class="main">
         <div class="social">
-            <a href="#"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-mailbox"></i></a>
+            <a href="https://github.com/Ahmed-Sarboudine"><i class="bi bi-github"></i></a>
+            <a href="www.linkedin.com/in/thamiz-sarboudine"><i class="bi bi-linkedin"></i></a>
+            <a href="#contact"><i class="bi bi-mailbox"></i></a>
         </div>
         <div class="detail">
             <h1><span>Bonjour,</span> <br> Je m'appelle   <span style="color:#113D6B;">Thamiz SARBOUDINE</span></h1>
-            <p>Je suis actuellment en deuxième année de BUT Informatique à l'<a href="#">université Gustave Eiffel</a>,<br> et je suis en alternance chez <a href="#"> Caseware</a> en tant que développeur </p>
+            <p>Je suis actuellment en deuxième année de BUT Informatique à l'<a href="https://iut.univ-gustave-eiffel.fr">IUT Marne-la-Vallée</a>,<br> et je suis en alternance chez <a href="https://www.caseware.fr"> Caseware</a> en tant que développeur. </p>
             <div class="button">
-                <button>Télécharger mon CV</button>
+                <a href="CV.pdf"><button>Télécharger mon CV</button></a>
             </div>
         </div>
         <div class="images">
@@ -263,7 +257,7 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
     </svg>
 </div>
-<section class="soft">
+<section class="soft" id="soft">
     <h1>Soft Skills</h1>
 
     <div class="conteneur">
@@ -278,7 +272,7 @@
 
             </summary>
             <div class="description-longue">
-                <p>J'ai développé BankLink, un site web qui permet la gestion des données bancaires. Les utilisateurs peuvent consulter, trier et visualiser leurs informations dans des graphiques. La plateforme permet également de créer ou supprimer des clients selon les besoins du product-owner, offrant une expérience utilisateur personnalisée et efficace.</p>
+                <p>J'ai développé BankLink, un site web qui permet la gestion des données bancaires. Les utilisateurs peuvent consulter, trier et visualiser leurs informations dans des graphiques. La plateforme permet également de créer ou supprimer des clients selon les besoins du product-owner, offrant une expérience utilisateur personnalisée et efficace. Selon les exigences du client, j'ai dû développer des fonctionnalités spécifiques, veillant à ce que mon code soit clair et compréhensible pour faciliter les modifications futures. Par ailleurs, j'ai réalisé des tests approfondis pour assurer le bon fonctionnement du produit, garantissant ainsi une solution fiable et performante pour la gestion des données bancaires.</p>
             </div>
         </details>
         <details>
@@ -350,7 +344,7 @@
 
             </summary>
             <div class="description-longue">
-                <p>Une description longue de la compétence</p>
+                <p>Dans le cadre de mon projet Semantic Analogy Explorer, l'apprentissage de la communication efficace entre les membres de l'équipe a été un aspect crucial. J'ai dû m'adapter aux besoins spécifiques de mon équipe, identifier précisément mon rôle au sein de celle-ci, et comprendre les compétences de chacun, y compris les miennes. Cette démarche a permis une répartition optimale des rôles, en tenant compte des forces et des capacités individuelles, pour maximiser l'efficacité du travail en groupe. En conséquence, nous avons été en mesure de mieux répondre aux attentes du client, en fournissant un projet qui non seulement répondait à ses besoins mais était aussi le fruit d'une collaboration harmonieuse et efficace. Cette expérience a renforcé l'importance de la connaissance de soi et des autres dans le succès d'un projet collaboratif.</p>
             </div>
         </details>
     </div>
@@ -412,34 +406,44 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
     </svg>
 </div>
-<section class="project">
+<section class="project" id="projet">
     <h1>Mes projets</h1>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- Il semble qu'il y avait un quatrième élément dans le carousel qui n'avait pas d'indicateur associé -->
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
+            <!-- Assurez-vous que les images référencées existent et sont correctement chargées -->
             <div class="carousel-item active">
-                <img src="projectimg/battleball.png" class="d-block w-100" alt="...">
+                <img src="projectimg/battleball.png" class="d-block w-100" alt="Battle">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>BattleBall</h5>
+                    <p>Jeu python réalisé en première année de BUT informatique.eee</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="projectimg/battleball.png" class="d-block w-100" alt="...">
+                <img src="projectimg/battleball.png" class="d-block w-100" alt="Banklink">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Banklink</h5>
+                    <p>Site web de gestion de compte bancaire.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="projectimg/battleball.png" class="d-block w-100" alt="...">
+                <img src="projectimg/battleball.png" class="d-block w-100" alt="Projet Séville">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Projet Séville</h5>
+                    <p>Site web présentant la ville de Séville.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="projectimg/battleball.png" class="d-block w-100" alt="BackPack Hero">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>BackPack Hero</h5>
+                    <p>Jeu Java réalisé en 1ère année de BUT informatique.</p>
                 </div>
             </div>
         </div>
@@ -452,7 +456,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+    <div id="project-description" class="project-description">
+        <!-- La description du projet sera injectée ici -->
+    </div>
 </section>
 <div class="custom-shape-divider-top-1707417152">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -461,6 +467,36 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
     </svg>
 </div>
+<div class="contact" id="contact">
+    <form action="envoyer_mail.php" method="post">
+        <h2>Formulaire de contact</h2>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="e-mail" required><br>
+
+        <label for="objet"></label>
+        <input type="text" id="objet" name="objet" placeholder="objet" required><br>
+
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="message" required></textarea><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <h3>THAMIZ</h3>
+        <p>Ce site a été réalisé dans le cadre d'un projet universitaire</p>
+        <ul class="socials">
+            <li><a href="https://github.com/Ahmed-Sarboudine"><i class="fa fa-github"></i></a></li>
+            <li><a href="www.linkedin.com/in/thamiz-sarboudine"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2024 designed by <span>Sarboudine Thamiz</span></p>
+    </div>
+</footer>
+
 
 </body>
 </html>
